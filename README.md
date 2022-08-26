@@ -1,6 +1,13 @@
 # ARFPC (Arduino Returnless Fuel Pressure Control)
 Use Arduino UNO and 1602 keypad Shield with AEM 100 PSI pressure transducer
 
+Motivations:
+I've converted my carb engine to Speeduino EFI, I want to keep my original single fuel pipe without the extra fuel return pipe, and learnt returnless fuel control is what I need, there's lack of returnless fuel pressure control soltuions on the market, so I decided to make my own using the off-the-shelf components with little modifications to make it works, has been using it for more than 6 months, no problem so far!
+
+Why returnless? 
+Not only it eliminates the need for the fuel return pipe and FPR (Fuel pressure regulator), only spin up when needed, actually in most cases during idle, is needs less then half of the full power, therefore, save power, pump runs cooler, and wears, means happier pump and longer lifetime!
+Also the ability to control the target pressure on the fly is good for testing the EFI system.
+
 Arduino library requirements:
 1. PID control: https://playground.arduino.cc/Code/PIDLibrary/
 2. 1602 LCD screen: https://www.arduino.cc/reference/en/libraries/liquidcrystal/
