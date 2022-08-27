@@ -43,3 +43,8 @@ press SELECT again to return to the main screen
 Override mode: the pump continuously to pump at 130 ADC level regardless what transducer is reading, to enter this mode, press both RIGHT button and RST at the same time, hold RIGHT until the screen displays "Overrided mode", it is usefuel to draw the fuel out of the tank, or in case if the transducer failed, from the test, it is still driveable at low RPM, this allows driver to move vehicle to the safer location.
 
 Failsafe timer: when the pump is continuously pump at the highest level (currently set to 200 ADC) more than 7 seconds, it will stop and show "Check pressure!", this is to prevent when transducer failed to read (always at low), or fuel leaks from accident or untighten pipings.
+
+See in action:
+
+[![Arudino Uno returnless fuel pressure control system](https://img.youtube.com/vi/GzToOXIbWQI/0.jpg)](https://www.youtube.com/watch?v=GzToOXIbWQI)
+
